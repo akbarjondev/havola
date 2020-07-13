@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/rubik-v9-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v9-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rubik-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/rubik-v9-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v9-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/rubik-v9-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/rubik-v9-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 *,
 *::before,
 *::after {
@@ -5,12 +33,62 @@
 }
 body {
 	box-sizing: border-box;
+	font-family: "Rubik", "Arial", sans-serif;
 }
-h1, h2, h3, h4, p {
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.top {
+	background-color: #273c75;
+}
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px 0;
+	height: 50vh;
+	color: #ffffff;
+}
+.header-heading-contents {
+	align-self: flex-end;
+
+}
+.header__heading {
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	line-height: 45px;
+	letter-spacing: 1px;
+}
+.social-list {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
 	padding: 0;
 	margin: 0;
+	list-style-type: none;
 }
-
+.social-list__item {
+	margin-left: 15px;
+}
+.social-list__item:hover {
+	transform: scale(1.03);
+}
+.social-list__link--icon {
+	color: #ffffff;
+}
+.contents-link {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	list-style-type: none;
+}
+.contents-link__item {
+	margin-right: 15px;
+}
 
 
 
