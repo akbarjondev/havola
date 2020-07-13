@@ -91,7 +91,22 @@ body {
 .contents-link__item {
 	margin-right: 15px;
 }
-
-
+.usefull-contents {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.usefull-contents__list-link {
+	text-decoration: none;
+	color: #487eb0;
+}
+.usefull-contents__programs,
+.usefull-contents__online-services {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #273c75;
+}
 
 
