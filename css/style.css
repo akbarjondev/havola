@@ -135,7 +135,7 @@ ol, ul {
 	flex-direction: column;
 	padding-bottom: 30px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #273c75;
+	border-bottom: 3px solid #273c75;
 }
 .usefull-contents__top-heading {
 	color: #273c75;
