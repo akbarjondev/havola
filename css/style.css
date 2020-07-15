@@ -43,6 +43,13 @@ ol, ul {
 	margin: 0;
 	padding: 0;
 }
+a {
+	display: inline-block;
+}
+a:focus {
+	outline: none;
+	box-shadow: 0 0 0 4px #e74c3c;
+}
 .container {
 	max-width: 1200px;
 	padding: 0 20px;
@@ -68,6 +75,9 @@ ol, ul {
 	font-size: 40px;
 	line-height: 45px;
 	letter-spacing: 1px;
+}
+.header__heading::after {
+	/*content: "\1F9B8";*/
 }
 .social-list {
 	display: flex;
@@ -121,6 +131,9 @@ ol, ul {
 .usefull-contents__list-link {
 	text-decoration: none;
 	color: #487eb0;
+}
+.usefull-contents__list-link:hover {
+	text-decoration: underline;
 }
 .item-heading {
 	padding-top: 20px;
