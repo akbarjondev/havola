@@ -155,9 +155,30 @@ a:focus {
 }
 .usefull-contents__bottom {
 	display: flex;
-	/*flex-direction: row;*/
 	justify-content: space-between;
 }
+.footer {
+	display: flex;
+	height: 10vh;
+	background-color: #273c75;
 
-
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__text {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #ffffff;
+}
+.footer__link {
+	margin-left: 10px;
+	background-color: #e74c3c;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #ffffff;
+}
 
