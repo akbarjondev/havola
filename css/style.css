@@ -190,6 +190,9 @@ a:focus {
 		font-size: 30px;
 		line-height: 35px;
 	}
+	.emoji {
+		display: none;
+	}
 	.usefull-contents__bottom {
 		justify-content: space-between;
 	}
