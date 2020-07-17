@@ -186,9 +186,6 @@ a:focus {
 
 /*MEDIA*/
 @media (max-width: 1000px) {
-	.header {
-		height: 30vh
-	}
 	.header__heading {
 		font-size: 30px;
 		line-height: 35px;
@@ -199,7 +196,20 @@ a:focus {
 	.usefull-contents__col {
 		width: calc( 540/1200*100%);
 	}
-	.footer {
-		height: 5vh;
+}
+@media (max-width: 500px) {
+	.header__heading {
+		width: 100%;
+		font-size: 21px;
+		line-height: 25px;
+	}
+	.contents-link {
+		display: none;
+	}
+	.social-list__item {
+		margin-left: 7px;
+	}
+	.usefull-contents__col {
+		width: 100%;
 	}
 }
