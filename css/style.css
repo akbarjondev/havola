@@ -97,6 +97,10 @@ a:focus {
 .social-list__item:hover {
 	transform: scale(1.03);
 }
+.social-list__link {
+	display: inline-block;
+	border-radius: 50%;
+}
 .social-list__link--icon {
 	color: #ffffff;
 }
