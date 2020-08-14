@@ -40,6 +40,8 @@ html {
 	box-sizing: inherit;
 }
 body {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: "Rubik", "Arial", sans-serif;
 }
@@ -100,11 +102,9 @@ a:focus {
 .social-list__item {
 	margin-left: 15px;
 }
-.social-list__item:hover {
-	transform: scale(1.03);
-}
 .social-list__link {
-	display: inline-block;
+	display: block;
+	height: 24px;
 	border-radius: 50%;
 }
 .social-list__link--icon {
