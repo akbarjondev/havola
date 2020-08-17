@@ -3,12 +3,12 @@
     "short_name": "",
     "icons": [
         {
-            "src": "android-chrome-192x192.png?v=47x7W6PElB",
+            "src": "https://atojiyev.github.io/havola/img/icons/android-chrome-192x192.png?v=alJlAMrEAX",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "android-chrome-512x512.png?v=47x7W6PElB",
+            "src": "https://atojiyev.github.io/havola/img/icons/android-chrome-512x512.png?v=alJlAMrEAX",
             "sizes": "512x512",
             "type": "image/png"
         }
