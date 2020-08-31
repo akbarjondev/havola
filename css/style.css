@@ -151,6 +151,9 @@ a:focus {
 	text-decoration: none;
 	color: #487eb0;
 }
+.usefull-contents__list-link:visited {
+	color: #9c36b5;
+}
 .usefull-contents__list-link:hover {
 	text-decoration: underline;
 }
